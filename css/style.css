@@ -1,0 +1,120 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Cardo', serif;
+  background: #EEEEEE;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3{
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+/* list */
+.item {
+  margin: 0 5px;
+  width: 33.3%;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 640px) {
+
+  .d-flex {
+    display: block!important;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+}
+
+/* google map */
+.gmap-wrap{
+  position : relative;
+  margin: 0 auto;
+}
+
+.gmap-wrap iframe,
+.gmap-wrap object,
+.gmap-wrap embed{
+  position : absolute;
+  top : 0;
+  left : 0;
+  width : 100%;
+  height : 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .gmap-wrap {
+    height: 200px;
+  }
+}
+
+/* form */
+.form {
+  width: 100%;
+  border:  1px solid #ccc;
+  border-radius: 10px;
+  background: #F6F7EB;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form form{
+  width: 95%;
+  margin: auto;
+}
+
+.form input{
+  padding: 10px;
+}
+
+.form_submit {
+  text-align: center;
+}
+
+.btn {
+  margin: 5px 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+/* pagination */
+.pagination {
+  text-align: center;
+}
+
+.pagination ul {
+  display: inline-block;
+}
+
+.pagination .page {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  display: inline;
+}
+
+/* country page */
+.tips {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
